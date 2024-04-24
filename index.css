@@ -1,0 +1,112 @@
+/* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 100 to 900*/
+
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    background-color: #111827;
+}
+hr {
+    display: block;
+    height: .5px;
+    border: 0;
+    border-top: 1px solid #2F3E53;
+    margin: 1em 0;
+    padding: 0;
+}
+
+body#flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    color: #F3F4F6;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-weight:900;
+    font-size: 2.5em;
+    color: #F3F4F6;
+    margin-top: 0;
+    margin-bottom:.25em
+  }
+
+p {
+    font-size: 1rem;
+    font-weight: 200;
+    margin: 0;
+}
+
+span#green{
+    color: #34D399;
+}
+
+#passwordGen:hover, .copy:hover {
+    cursor:pointer
+}
+
+#passwordBox{
+    background-color: #1F2937;
+    padding: 4em 2em;
+    border-radius: .25em;
+    min-width: 45%;
+}
+
+#flex input {
+    border: none;
+    padding: .75em 1em;
+    border-radius: .25em;
+    background-color: #273549;
+    color: #fff;
+}
+
+#flex input::placeholder {
+    color: #fff;
+    opacity: .5; /* Firefox */
+    letter-spacing: .75;
+    font-weight: 300;
+  }
+
+#flex button{
+    margin: 3.5em 0 1em;
+    background-color: #34D399;
+    border: none;
+    color: #F3F4F6;
+    font-size: 16px;
+    border-radius: .25em;
+    padding: .75em 1em;
+    letter-spacing: .5;
+}
+
+#passwordContainer {
+    display: flex;
+    margin-top: 2em;
+    /*justify-content: space-between;*/
+}
+
+.passwordFieldContainer {
+    text-align: center;
+}
+
+#passwordOne, #passwordTwo {
+    min-width: 175px;
+    background-color: #273549;
+    padding: 1em;
+    border-radius: .25em;
+    min-height: 20px;
+    text-align: center;
+    margin: 0 .25em;
+}
+
+.copy {
+    margin-top: .5em;
+    color: #374151;
+    font-weight: 500;
+}
+
+#passwordOne-EL, #passwordTwo-EL{
+    color: #34D399;
+    font-weight: 400;
+}
